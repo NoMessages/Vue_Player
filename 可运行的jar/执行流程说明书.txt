@@ -1,7 +1,0 @@
-1.使用的MYSQL数据库需要在8.0版本及其以上，否则会抛出异常
-2.执行shop.sql 脚本文件，部署到SQLYog图形化工具数据库中
-3.在当前目录下敲cmd   -- > java -jar cloud-boot-customer-consumer-80.jar 回车运行即可
-4.默认管理员
-用户名：root
-密码：123456
-删除口令：root

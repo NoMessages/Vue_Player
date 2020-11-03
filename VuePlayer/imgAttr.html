@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        #app {
+            width: 1600px;
+            height: 600px;
+            text-align: center;
+        }
+        
+        #app img {
+            width: 600px;
+            height: 500px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 开发环境版本，包含了有帮助的命令行警告 -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <div id="app">
+
+        <img :src="imgArr[index]" />
+        <br/>
+
+        <button type=" button " class="btn btn-primary " v-show="index!=0" v-on:click="preBtn"> 上一张</button>
+        <button type="button " class="btn btn-primary " v-show="index<imgArr.length - 1" v-on:click=" nextBtn ">下一张</button>
+
+    </div>
+
+    <script>
+        var vue = new Vue({
+            //数据：
+            //1. imgArr -- 图片数组  
+            //2. index -- 图片索引
+            //3. isFirst -- 是否是第一张
+            //4. isLast -- 是否是最后一张
+            //5. 
+            el: " #app ",
+            data: {
+                imgArr: [
+                    "img/1.jpg ",
+                    "img/2.jpg ",
+                    "img/3.jpg ",
+                    "img/4.jpg ",
+                    "img/5.jpg ",
+                    "img/6.jpg ",
+                    "img/7.jpg ",
+                    "img/8.jpg ",
+                    "img/9.jpg ",
+                    "img/10.jpg ",
+                    "img/11.jpg ",
+                    "img/12.jpg ",
+                    "img/13.jpg ",
+                    "img/14.jpg ",
+                    "img/15.jpg ",
+                ],
+                index: 0,
+                // isFirst: false,
+                // isLast: true
+            }, //data end
+            methods: {
+                preBtn: function() {
+                    if (this.index > 0) {
+                        this.index--;
+                        // if (this.index == 0) {
+                        //     this.isFirst = false;
+                        // }
+                        // this.isLast = true;
+                    }
+
+                },
+                nextBtn: function() {
+                    if (0 < this.index < this.imgArr.length) {
+                        this.index++;
+                        // if (this.index == this.imgArr.length - 1) {
+                        //     this.isLast = false;
+                        // }
+                        // this.isFirst = true;
+                    }
+                }
+            }, //methods end .. 
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <button id="get" type="submit">GET查看笑话</button>
+        <button id="post" type="submit"> value="POST注册用户"</button>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script>
+        document.getElementById("get").onclick = function() {
+
+            axios.get("https://autumnfish.cn/api/joke/list?num=6")
+                .then(res => {
+                    console.log(res)
+                })
+                .catch(err => {
+                    console.error(err);
+                })
+            console.log("object");
+            // axious.get().then(function(response) {
+            //     alert(response);
+            // }, function(err) {
+            //     alert(err);
+            // })
+        }
+
+        document.querySelector("#post").onclick = function() {
+            axios.post("https://autumnfish.cn/api/user/reg", {
+                    username: "张三"
+                })
+                .then(function(response) {
+                    console.log(response);
+                })
+                .catch(function(error) {
+                    alert(error)
+                })
+        }
+
+
+        // //查看笑话
+        // var vue = new Vue({
+
+        //     el: "#app",
+        //     data: {
+
+        //     },
+        //     methods: {
+        //         getFun: function() {
+
+        //             axious.get("https://autumnfish.cn/api/joke/list").then((result) => {
+        //                 alert(result)
+        //             }).catch((err) => {
+        //                 alert(err)
+        //             });
+
+        //         }
+        //     },
+
+        // });
+    </script>
+
+</body>
+
+</html>

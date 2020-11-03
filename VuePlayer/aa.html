@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <div id="app">
+        <button v-on:click="sub">-</button>
+        <span v-text="num"></span>
+        <button v-on:click="add ">+</button>
+    </div>
+    <script>
+        var app = new Vue({
+            el: "#app ",
+            data: {
+                message: "nmml ",
+                hello: "rocy ",
+                num: 1
+            },
+            methods: {
+                sub: function() {
+                    if (this.num > 0)
+                        this.num -= 1;
+                },
+                add: function() {
+                    if (this.num < 10)
+                        this.num += 1;
+                }
+            },
+        });
+    </script>
+</body>
+
+</html>
