@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="fatcats.top.dao.CoGoodsDao">
+
+
+    <!--
+    根据ID查询
+    findCoByID
+
+
+    //根据ID删除评论
+    public void delCoByID(@Param("id") Integer id);
+    -->
+
+<select id="findCoByID" resultType="CoGoods">
+
+    select
+    co_ids , co_content , co_time , co_uname , co_addr , co_id
+    from
+    tb_gds_co
+    WHERE
+    co_id = #{id}
+
+</select>
+
+
+<delete id="delCoByID">
+
+
+    DELETE FROM tb_gds_co WHERE co_ids = #{id}
+
+</delete>
+
+</mapper>

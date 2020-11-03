@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="fatcats.top.dao.GoodsTypeDao">
+
+
+    <!--
+
+     查询所有类型
+//根据Type_ID查询类型
+    public GoodsType findTypeByID(@Param("id") Integer id);
+    INSERT INTO tb_gds_type VALUES(DEFAULT , #{type_name})
+ //插入数据
+    public void insType(GoodsType goodsType);
+    -->
+
+<select id="findAllType" resultType="GoodsType">
+
+    SELECT type_id , type_name FROM tb_gds_type
+
+</select>
+
+
+<select id="findTypeByID" resultType="GoodsType">
+
+    SELECT type_id , type_name FROM tb_gds_type WHERE type_id = #{id}
+
+</select>
+
+
+<insert id="insType">
+
+    INSERT INTO tb_gds_type VALUES(DEFAULT , #{type_name})
+
+</insert>
+
+</mapper>

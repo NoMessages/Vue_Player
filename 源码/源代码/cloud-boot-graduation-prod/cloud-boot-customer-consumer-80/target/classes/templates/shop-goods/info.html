@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://getbootstrap.com/docs/4.0/examples/dashboard/ -->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<title>商品详细信息查看</title>
+		<!-- Bootstrap core CSS -->
+		<link th:href="@{/asserts/css/bootstrap.min.css}"  rel="stylesheet">
+		<link rel="stylesheet" th:href="@{/asserts/js/css/layui.css}" media="all">
+		<!-- Custom styles for this template -->
+		<link th:href="@{/asserts/css/dashboard.css}" rel="stylesheet">
+		<style type="text/css">
+			/* Chart.js */
+			
+			@-webkit-keyframes chartjs-render-animation {
+				from {
+					opacity: 0.99
+				}
+				to {
+					opacity: 1
+				}
+			}
+			
+			@keyframes chartjs-render-animation {
+				from {
+					opacity: 0.99
+				}
+				to {
+					opacity: 1
+				}
+			}
+			
+			.chartjs-render-monitor {
+				-webkit-animation: chartjs-render-animation 0.001s;
+				animation: chartjs-render-animation 0.001s;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div th:replace="comments/bar::topbar"></div>
+
+		<div class="container-fluid">
+			<div class="row">
+				<div th:replace="comments/bar::#siderbar(actionUri='goods-shop')"></div>
+
+				<main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+					<form th:action="@{/goods-shop/add}" method="post">
+						<div class="form-group" style="display: none">
+							<input name="goods_id"/>
+						</div>
+						<div class="form-group">
+							<label for="exampleInputEmail1">商品名称</label>
+							<input type="text" name="goods_name"  class="form-control" id="exampleInputEmail1" th:value="${goods.goods_name}">
+						</div>
+						<br/>
+						<div class="form-group">
+							<label for="exampleInputPassword1">商品价格</label>
+							<input type="text" name="goods_price" class="form-control" id="exampleInputPassword1" th:value="${goods.goods_price}">
+						</div>
+						<br/>
+						<div class="form-group">
+							<label for="exampleInputPassword1">购买商品所获积分</label>
+							<input type="text" name="goods_star" class="form-control" id="exampleInputPassword2" th:value="${goods.goods_star}">
+						</div>
+						<br/>
+
+						<div class="form-group">
+							<label for="exampleInputPassword1">商品所属公司</label>
+							<input type="text" name="goods_company" class="form-control" id="exampleInputPassword2" th:value="${goods.pany_name}">
+						</div>
+						<br/>
+						<div class="form-group">
+							<label for="exampleInputPassword1">商品所属分类</label>
+							<input type="text" name="goods_catagory" class="form-control" id="exampleInputPassword2" th:value="${goods.type_name}">
+						</div>
+						<br/>
+						<div class="form-group">
+							<label for="exampleInputPassword1">商品所属物流</label>
+							<input type="text" name="goods_car" class="form-control" id="exampleInputPassword2" th:value="${goods.car_name}">
+						</div>
+					</form>
+						<!-- 商品评价专区 -->
+					<fieldset class="layui-elem-field layui-field-title" style="margin-top: 30px;">
+						<legend>商品评价</legend>
+					</fieldset>
+					<div>
+						<div id="test4"></div>
+					</div>
+					<script type="text/javascript" th:src="@{/asserts/js/layui.all.js}"></script>
+					<!-- 注意：如果你直接复制所有代码到本地，上述js路径需要改成你本地的 -->
+					<script>
+						layui.use(['rate'], function() {
+							var rate = layui.rate;
+							rate.render({
+								elem: '#test4',
+								value: 4,
+								half: true,
+								text: true,
+								theme: "#2F4056",
+								readonly: true
+
+							});
+						});
+					</script>
+
+						<!--  商品评论专区 -->
+
+					<fieldset class="layui-elem-field layui-field-title" style="margin-top: 30px;">
+						<legend class="layui-bg-red">商品评论区域</legend>
+					</fieldset>
+
+					<fieldset class="layui-elem-field">
+						<legend>快来看看有哪些精彩评论吧！</legend>
+						<div class="layui-field-box">
+
+							<legend style="text-align: center;" th:if="${#lists.isEmpty(comments)}">啊噢！此商品还没有任何评论哟~~~~</legend>
+							<div th:if="${not #lists.isEmpty(comments)}">
+							<table class="table table-hover" >
+								<thead>
+								<tr>
+									<th>#</th>
+									<th>评论编号</th>
+									<th>商品名称</th>
+									<th>评论内容</th>
+									<th>评论时间</th>
+									<th>评论地址</th>
+									<th>评论用户名</th>
+								</tr>
+								</thead>
+								<tbody>
+								<tr th:each="co:${comments}">
+									<td th:text="${co.co_ids}"></td>
+									<td th:text="${co.co_ids}"></td>
+									<td th:text="${goods.goods_name}"></td>
+									<td th:text="${co.co_content}"></td>
+									<td th:text="${co.co_time}"></td>
+									<td th:text="${co.co_addr}"></td>
+									<td th:text="${co.co_uname}"></td>
+									<!--
+                                        走控制器的删除方式
+                                    <form th:action="@{/order/}+${order.id}" method="post">
+                                 -->
+									<td>
+										<!-- 自定义thymeleaf模板 -->
+										<!--<button th:attr="del_uri=@{/order/}+${order.id}" class="btn btn-sm btn-danger delbtn">删除</button>-->
+										<a th:onclick="'lick('+${co.co_ids}+','+${goods.goods_id}+');'" class="btn btn-sm btn-danger delbtn">删除此条评论</a>
+									</td>
+
+								</tr>
+								</tbody>
+							</table>
+							</div>
+						</div>
+					</fieldset>
+
+
+					<a type="submit" class="btn btn-default" th:href="@{/goods-shop}">返回菜单</a>
+				</main>
+
+			</div>
+		</div>
+
+		<!-- Bootstrap core JavaScript
+    ================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script type="text/javascript" th:src="@{/asserts/js/jquery-3.2.1.slim.min.js}"></script>
+		<script type="text/javascript" th:src="@{/asserts/js/popper.min.js}"></script>
+		<script type="text/javascript" th:src="@{/asserts/js/bootstrap.min.js}"></script>
+
+		<!-- Icons -->
+		<script type="text/javascript" th:src="@{/asserts/js/feather.min.js}"></script>
+		<script>
+			feather.replace()
+		</script>
+
+
+
+		<script>
+			function lick(cid,gid) {
+				layer.prompt({
+					title: '涉及敏感操作，请输入口令验证身份：',
+					formType: 1
+				}, function(pass, index) {
+					layer.close(index);
+					if ("root" == pass) {
+						layer.msg('口令正确');
+						var uri = "http://localhost/goods-co/del/"+cid+"/"+gid;
+						window.location.href = uri;
+					} else {
+						layer.msg('口令有误！无法进行删除操作');
+					}
+				});
+			}
+		</script>
+
+
+
+
+
+
+		<!-- Graphs -->
+		<script type="text/javascript" th:src="@{/asserts/js/Chart.min.js}"></script>
+		<script>
+			var ctx = document.getElementById("myChart");
+			var myChart = new Chart(ctx, {
+				type: 'line',
+				data: {
+					labels: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+					datasets: [{
+						data: [15339, 21345, 18483, 24003, 23489, 24092, 12034],
+						lineTension: 0,
+						backgroundColor: 'transparent',
+						borderColor: '#007bff',
+						borderWidth: 4,
+						pointBackgroundColor: '#007bff'
+					}]
+				},
+				options: {
+					scales: {
+						yAxes: [{
+							ticks: {
+								beginAtZero: false
+							}
+						}]
+					},
+					legend: {
+						display: false,
+					}
+				}
+			});
+		</script>
+
+	</body>
+
+</html>

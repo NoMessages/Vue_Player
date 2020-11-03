@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fa4b29a5-afb3-481e-bbe7-063279b8ba24" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-boot-customer-consumer-80/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-api-commons/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-api-order/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-boot-shopping-app-8001/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2242">
+              <caret line="118" column="11" selection-start-line="118" selection-start-column="11" selection-end-line="118" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/controller/CoGoodsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2033">
+              <caret line="107" column="10" selection-start-line="107" selection-start-column="10" selection-end-line="117" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sta</find>
+      <find>Delete</find>
+      <find>Sig</find>
+      <find>thy</find>
+      <find>Gifts</find>
+      <find>save</find>
+      <find>ltabs-tab-label</find>
+      <find>topbar</find>
+      <find>sider</find>
+      <find>solid</find>
+      <find>goodsTypeService.findTypeByID(</find>
+      <find>/add</find>
+      <find>sec</find>
+      <find>del_uri</find>
+      <find>cat</find>
+      <find>css/lay</find>
+      <find>password</find>
+      <find>新增</find>
+      <find>goods-repo</find>
+      <find>layui.css</find>
+      <find>layui.all.js</find>
+      <find>fast_name</find>
+      <find>jquery</find>
+      <find>fast_id</find>
+      <find>fast_down</find>
+      <find>la</find>
+      <find>layui</find>
+      <find>goods.goods_id</find>
+      <find>ctx</find>
+      <find>myChart</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/controller/RepoGoodsController.java" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/service/GoodsService.java" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/templates/fast-goods/list.html" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/test/java/fatcats/top/ShoppingOrderTests.java" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/domain/FastGoods.java" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/templates/fast-goods/add.html" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/service/FastGoodsService.java" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/service/Impl/FastGoodsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/dao/FastGoodsDao.java" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/mapper/FastMapper.xml" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/controller/FastGoodsController.java" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/templates/con-goods/list.html" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/dao/TypeGoodsDao.java" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/dao/GoodsTypeDao.java" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/service/GoodsTypeService.java" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/service/Impl/GoodsTypeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/mapper/TypeMapper.xml" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/templates/sec-goods/add.html" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/controller/TypeGoodsController.java" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/controller/PanyOrderController.java" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/templates/shop-goods/list.html" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/templates/type-goods/add.html" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/templates/pany-goods/add.html" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/templates/car-goods/edit.html" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/templates/car-goods/add.html" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/dao/CarGoodsDao.java" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/service/CarGoodsService.java" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/service/Impl/CarGoodsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/mapper/CarMapper.xml" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/controller/CarGoodsController.java" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/templates/car-goods/list.html" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/domain/Total.java" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/service/RepoGoodsService.java" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/dao/RepoGoodsDao.java" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/service/Impl/RepoGoodsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/mapper/RepoMapper.xml" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/controller/TotalGoodsController.java" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/templates/total-goods/list.html" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/domain/OrderGoods.java" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/service/OrderGoodsService.java" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/service/Impl/OrderGoodsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/dao/OrderDao.java" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/controller/OrderGoodsControler.java" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/templates/order-goods/list.html" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/mapper/OrderMapper.xml" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/controller/ContentGoodsController.java" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/controller/CoGoodsController.java" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/application.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.5.3-bin\maven_respository" />
+        <option name="mavenHome" value="D:/apache-maven-3.5.3-bin/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.5.3-bin\apache-maven-3.5.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cloud-boot-customer-consumer-80" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cloud-boot-customer-consumer-80" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="13" />
+    <option name="y" value="34" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cloud-boot-graduation-prod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-boot-graduation-prod" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595513537708" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="fatcats.top.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lenovo\Desktop\All_Projects\cloud-boot-graduation-prod\cloud-boot-customer-consumer-80\src\main\resources\templates\car-goods" />
+      <recent name="C:\Users\lenovo\Desktop\All_Projects\cloud-boot-graduation-prod\cloud-boot-customer-consumer-80\src\main\resources\templates\pany-goods" />
+      <recent name="C:\Users\lenovo\Desktop\All_Projects\cloud-boot-graduation-prod\cloud-boot-customer-consumer-80\src\main\resources\templates\type-goods" />
+      <recent name="C:\Users\lenovo\Desktop\All_Projects\cloud-boot-graduation-prod\cloud-boot-customer-consumer-80\src\main\resources\templates\fast-goods" />
+      <recent name="C:\Users\lenovo\Desktop\All_Projects\cloud-boot-graduation-prod\cloud-boot-customer-consumer-80\src\main\resources\templates\repo-goods" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.13523957" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.ShoppingOrderMain80">
+    <configuration name="ShoppingOrderTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloud-boot-customer-consumer-80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fatcats.top.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fatcats.top" />
+      <option name="MAIN_CLASS_NAME" value="fatcats.top.ShoppingOrderTests" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingOrderTests.tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloud-boot-customer-consumer-80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fatcats.top.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fatcats.top" />
+      <option name="MAIN_CLASS_NAME" value="fatcats.top.ShoppingOrderTests" />
+      <option name="METHOD_NAME" value="tests" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingTest.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloud-boot-shopping-app-8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fatcats.top.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fatcats.top" />
+      <option name="MAIN_CLASS_NAME" value="fatcats.top.ShoppingTest" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-boot-shopping-app-8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fatcats.top.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="fatcats.top.ShoppingMain8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingOrderMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-boot-customer-consumer-80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fatcats.top.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="fatcats.top.ShoppingOrderMain80" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ShoppingOrderMain80" />
+        <item itemvalue="Spring Boot.ShoppingMain8001" />
+        <item itemvalue="JUnit.ShoppingOrderTests.tests" />
+        <item itemvalue="JUnit.ShoppingOrderTests.test" />
+        <item itemvalue="JUnit.ShoppingTest.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa4b29a5-afb3-481e-bbe7-063279b8ba24" name="Default Changelist" comment="" />
+      <created>1593584976161</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593584976161</updated>
+      <workItem from="1593584981923" duration="5129000" />
+      <workItem from="1593654250742" duration="1590000" />
+      <workItem from="1593655928384" duration="8309000" />
+      <workItem from="1593670562224" duration="11497000" />
+      <workItem from="1593691716435" duration="11459000" />
+      <workItem from="1593735570523" duration="10096000" />
+      <workItem from="1593756519347" duration="9206000" />
+      <workItem from="1593849182121" duration="3645000" />
+      <workItem from="1593915589873" duration="2468000" />
+      <workItem from="1593928579166" duration="4515000" />
+      <workItem from="1593994610747" duration="5334000" />
+      <workItem from="1594017347861" duration="9131000" />
+      <workItem from="1594081564726" duration="9832000" />
+      <workItem from="1594097498241" duration="21278000" />
+      <workItem from="1594177718740" duration="15636000" />
+      <workItem from="1594206975437" duration="1672000" />
+      <workItem from="1594208739514" duration="6910000" />
+      <workItem from="1594263401384" duration="7758000" />
+      <workItem from="1594275289917" duration="8760000" />
+      <workItem from="1594302071051" duration="4853000" />
+      <workItem from="1594340299485" duration="4093000" />
+      <workItem from="1594346207026" duration="6748000" />
+      <workItem from="1594354292714" duration="18355000" />
+      <workItem from="1594375026595" duration="10664000" />
+      <workItem from="1594447729622" duration="951000" />
+      <workItem from="1594732161346" duration="9301000" />
+      <workItem from="1594794175672" duration="1917000" />
+      <workItem from="1594879975362" duration="3552000" />
+      <workItem from="1594962646000" duration="17340000" />
+      <workItem from="1595059603321" duration="1972000" />
+      <workItem from="1595208669328" duration="3806000" />
+      <workItem from="1595290718477" duration="4688000" />
+      <workItem from="1595377518529" duration="6062000" />
+      <workItem from="1595467466428" duration="3014000" />
+      <workItem from="1595470674580" duration="7647000" />
+      <workItem from="1595552233883" duration="48000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ShoppingTest_contextLoads - 2020.07.06 at 16h 16m 53s.xml">
+      <configuration name="ShoppingTest.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingTest_contextLoads - 2020.07.06 at 16h 17m 48s.xml">
+      <configuration name="ShoppingTest.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingTest_contextLoads - 2020.07.06 at 16h 22m 29s.xml">
+      <configuration name="ShoppingTest.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingTest_contextLoads - 2020.07.06 at 16h 24m 53s.xml">
+      <configuration name="ShoppingTest.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingOrderTests_test - 2020.07.06 at 16h 26m 11s.xml">
+      <configuration name="ShoppingOrderTests.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingOrderTests_tests - 2020.07.10 at 17h 06m 55s.xml">
+      <configuration name="ShoppingOrderTests.tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingOrderTests_tests - 2020.07.10 at 17h 08m 58s.xml">
+      <configuration name="ShoppingOrderTests.tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingOrderTests_tests - 2020.07.10 at 17h 09m 46s.xml">
+      <configuration name="ShoppingOrderTests.tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingOrderTests_tests - 2020.07.10 at 17h 10m 58s.xml">
+      <configuration name="ShoppingOrderTests.tests" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="259236000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3139183" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.20785597" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.47463176" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.20621932" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.18078668" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.12405446" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32980332" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/controller/SecGoodsController.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/mapper/CoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/ShoppingOrderMain80.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-shopping-app-8001/src/main/java/fatcats/top/ShoppingMain8001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-shopping-app-8001/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81985">
+          <caret line="4315" selection-start-line="4315" selection-end-line="4315" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-shopping-app-8001/src/main/resources/templates/product.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-shopping-app-8001/src/main/resources/templates/category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49020">
+          <caret line="2580" selection-start-line="2580" selection-end-line="2580" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/templates/car-goods/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="69" column="27" lean-forward="true" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/templates/sec-goods/edit.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/templates/sec-goods/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="68" selection-start-line="68" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/mapper/CarMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/service/Impl/CarGoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="43" column="40" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+          <folding>
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1024#1025#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/service/CarGoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/templates/car-goods/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="95" column="32" lean-forward="true" selection-start-line="95" selection-start-column="32" selection-end-line="95" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/templates/car-goods/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-141">
+          <caret line="109" column="31" lean-forward="true" selection-start-line="109" selection-start-column="31" selection-end-line="109" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/templates/shop-goods/info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="196" column="21" lean-forward="true" selection-start-line="196" selection-start-column="21" selection-end-line="196" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/templates/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="95" column="39" selection-start-line="95" selection-start-column="39" selection-end-line="95" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/domain/Total.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="655">
+          <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+          <folding>
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+            <element signature="e#1123#1124#0" expanded="true" />
+            <element signature="e#1161#1162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/mapper/RepoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/service/Impl/RepoGoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/controller/TotalGoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="67" column="32" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/service/RepoGoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/dao/RepoGoodsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/templates/total-goods/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="54" column="72" lean-forward="true" selection-start-line="54" selection-start-column="72" selection-end-line="54" selection-end-column="72" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#main#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/templates/shop-goods/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1359">
+          <caret line="88" column="42" selection-start-line="88" selection-start-column="42" selection-end-line="88" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/domain/OrderGoods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="31" selection-end-column="30" />
+          <folding>
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+            <element signature="e#1057#1058#0" expanded="true" />
+            <element signature="e#1087#1088#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
+            <element signature="e#1171#1172#0" expanded="true" />
+            <element signature="e#1205#1206#0" expanded="true" />
+            <element signature="e#1235#1236#0" expanded="true" />
+            <element signature="e#1281#1282#0" expanded="true" />
+            <element signature="e#1319#1320#0" expanded="true" />
+            <element signature="e#1354#1355#0" expanded="true" />
+            <element signature="e#1385#1386#0" expanded="true" />
+            <element signature="e#1433#1434#0" expanded="true" />
+            <element signature="e#1473#1474#0" expanded="true" />
+            <element signature="e#1509#1510#0" expanded="true" />
+            <element signature="e#1541#1542#0" expanded="true" />
+            <element signature="e#1591#1592#0" expanded="true" />
+            <element signature="e#1633#1634#0" expanded="true" />
+            <element signature="e#1670#1671#0" expanded="true" />
+            <element signature="e#1702#1703#0" expanded="true" />
+            <element signature="e#1753#1754#0" expanded="true" />
+            <element signature="e#1795#1796#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/mapper/GoodsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/templates/sec-goods/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="155" lean-forward="true" selection-start-line="155" selection-end-line="155" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/templates/con-goods/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#main#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#main#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#main#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#2;n#div#0;n#main#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#main#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#3;n#div#0;n#main#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#main#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#4;n#div#0;n#main#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/templates/order-goods/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2863">
+          <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#main#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/controller/OrderGoodsControler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/service/OrderGoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/service/Impl/OrderGoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/dao/OrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/mapper/OrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/dao/ContentGoodsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/controller/CarGoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/config/WebMvcController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/controller/ContentGoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/controller/PanyOrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/controller/SecGoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/controller/UserLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="59" column="53" selection-start-line="23" selection-start-column="2" selection-end-line="62" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/templates/comments/bar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2584">
+          <caret line="136" column="6" selection-start-line="22" selection-end-line="136" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/dao/CoGoodsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/dao/CarGoodsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-api-order/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2242">
+          <caret line="118" column="11" selection-start-line="118" selection-start-column="11" selection-end-line="118" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/java/fatcats/top/controller/CoGoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2033">
+          <caret line="107" column="10" selection-start-line="107" selection-start-column="10" selection-end-line="117" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-boot-customer-consumer-80/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>cloud-boot-shopping-app-8001</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.333001" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="clear package" />
+  </component>
+</project>

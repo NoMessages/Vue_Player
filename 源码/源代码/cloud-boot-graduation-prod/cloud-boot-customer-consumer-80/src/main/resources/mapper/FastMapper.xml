@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="fatcats.top.dao.FastGoodsDao">
+
+    <!--
+
+        findAllFast
+ //根据分类查询
+    public List<FastGoods> findShow0();
+    //根据分类查询1
+    public List<FastGoods> findShow1();
+
+    insertFastGoods
+
+
+    uptFastGoodsByID
+    -->
+
+<select id="findAllFast" resultType="FastGoods">
+
+SELECT
+fast_up , fast_down , fast_num , fast_repo , fast_price , fast_id , fast_show
+FROM
+tb_fast
+
+</select>
+
+
+<select id="findShow0" resultType="FastGoods">
+
+    SELECT
+fast_up , fast_down , fast_num , fast_repo , fast_price , fast_id , fast_show
+FROM
+tb_fast
+WHERE
+fast_show = 0
+
+</select>
+
+
+
+    <select id="findShow1" resultType="FastGoods">
+
+    SELECT
+fast_up , fast_down , fast_num , fast_repo , fast_price , fast_id , fast_show
+FROM
+tb_fast
+WHERE
+fast_show = 1
+
+</select>
+
+    <select id="findShow2" resultType="FastGoods">
+
+    SELECT
+fast_up , fast_down , fast_num , fast_repo , fast_price , fast_id , fast_show
+FROM
+tb_fast
+WHERE
+fast_show = 2
+
+</select>
+
+<insert id="insertFastGoods">
+
+    INSERT INTO
+     tb_fast
+    VALUES
+    (#{fast_up} ,
+      #{fast_down} ,
+      #{fast_num} ,
+      #{fast_repo},
+      #{fast_price},
+     #{fast_id},
+     #{fast_show})
+
+</insert>
+
+
+
+    <update id="uptFastGoodsByID" >
+
+        UPDATE tb_fast
+        SET
+        fast_show = #{fast_show}
+        WHERE
+        fast_id = #{fast_id} and fast_up = #{fast_up} and fast_down = #{fast_down}
+
+
+    </update>
+
+</mapper>

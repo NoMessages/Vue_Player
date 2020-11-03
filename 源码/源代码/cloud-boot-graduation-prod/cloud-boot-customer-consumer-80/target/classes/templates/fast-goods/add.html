@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://getbootstrap.com/docs/4.0/examples/dashboard/ -->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<title>订单模块数据管理</title>
+		<!-- Bootstrap core CSS -->
+		<link th:href="@{/asserts/css/bootstrap.min.css}"  rel="stylesheet">
+        <!-- LAYUI EASYUI -->
+        <link rel="stylesheet" th:href="@{/asserts/js/css/layui.css}" media="all"></link>
+        <script type="text/javascript" th:src="@{/asserts/js/layui.js}" charset="utf-8"></script>
+		<script type="text/javascript" th:src="@{/asserts/js/layui.all.js}"></script>
+        <script type="text/javascript" th:src="@{/asserts/js/jquery-3.2.1.slim.min.js}"></script>
+        <script type="text/javascript" th:src="@{/asserts/js/jquery.min.js}"></script>
+        <!-- Custom styles for this template -->
+		<link th:href="@{/asserts/css/dashboard.css}" rel="stylesheet">
+		<style type="text/css">
+			/* Chart.js */
+			
+			@-webkit-keyframes chartjs-render-animation {
+				from {
+					opacity: 0.99
+				}
+				to {
+					opacity: 1
+				}
+			}
+			
+			@keyframes chartjs-render-animation {
+				from {
+					opacity: 0.99
+				}
+				to {
+					opacity: 1
+				}
+			}
+			
+			.chartjs-render-monitor {
+				-webkit-animation: chartjs-render-animation 0.001s;
+				animation: chartjs-render-animation 0.001s;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div th:replace="comments/bar::topbar"></div>
+
+		<div class="container-fluid">
+			<div class="row">
+				<div th:replace="comments/bar::#siderbar(actionUri='goods-fast')"></div>
+
+				<main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+				<h1>促销活动</h1>
+                    <div class="layui-form">
+                        <div class="layui-form-item">
+                            <!-- 销售时间START -->
+                            <div class="layui-inline form-group">
+                                <label class="layui-form-label">选择预销售时间</label>
+                                <div class="layui-input-inline">
+                                    <div id="test28" style="height: 38px; line-height: 38px; cursor: pointer; border: 1px solid #e2e2e2;"></div>
+                                </div>
+                            <!--      销售时间END  -->
+                                <div class="layui-inline form-group">
+                                    <label class="layui-form-label">选择预下架时间</label>
+                                    <div class="layui-input-inline" >
+                                        <div id="test29" style="height: 38px; line-height: 38px; cursor: pointer; border: 1px solid #e2e2e2;"></div>
+                                    </div>
+                        <!-- 下架时间END -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                        <form th:action="@{/goods-fast/add}" method="post">
+                            <div class="form-group" style="display: none">
+                                <input name="fast_up" id="fast_up"/>
+                                <input name="fast_down" id="fast_down"/>
+                                <input name="fast_id" id="fast_id"/>
+                                <input name="fast_show" id="fast_show" value="0"/>
+                                <input name="goods_name" id="goods_name" value="0"/>
+                            </div>
+                            <!-- 所有商品 -->
+                            <select class="form-control" id="fast_option" onchange="func()">
+                                <option th:each="goods:${allGoods}" th:value="${goods.goods_id}" th:text="${goods.goods_name}">1</option>
+                            </select>
+                            <br/>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">商品原价</label>
+                                <input type="text" class="form-control"  id="exampleInputPassword1" placeholder="GoodsPrice">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">商品预售价格</label>
+                                <input type="text" name="fast_price"  class="form-control" id="exampleInputEmail1" placeholder="FastPri">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">商品预售库存</label>
+                                <input type="text" name="fast_repo" class="form-control" id="exampleInputPassword2" placeholder="GoodsRepo">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">商品预售可获得积分</label>
+                                <input type="text" name="fast_num" class="form-control" id="exampleInputPassword3" placeholder="Star">
+                            </div>
+                            <br/>
+                            <!-- 所属分类 -->
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">商品所属分类</label>
+                                <input type="text" class="form-control" id="exampleInputPassword4" placeholder="生活类">
+                            </div>
+                            <br/>
+                            <button type="submit" class="btn btn-default">确认发布</button>
+                            <a type="submit" class="btn btn-default" th:href="@{/goods-fast}">返回菜单</a>
+                        </form>
+                </main>
+
+            </div>
+        </div>
+        <!-- 跳转之间选择 -->
+        <script>
+            var id = $("#fast_option option:selected").val();
+            $("#fast_id").val(id);
+            console.log($("#fast_id").val());
+            $.get("http://localhost:/goods-fast/select/"+id, function(data, status) {
+                $("#exampleInputPassword1").val(data.goods_price);
+                $("#exampleInputEmail1").val(Math.ceil(data.goods_price * 0.75));
+                $("#exampleInputPassword2").val(data.repo_num);
+                $("#exampleInputPassword3").val(data.goods_star);
+                $("#exampleInputPassword4").val(data.type_name);
+            });
+
+            function func(){
+                var id = $("#fast_option option:selected").val();
+                console.log(id);
+                $.get("http://localhost:/goods-fast/select/"+id, function(data, status) {
+                   $("#exampleInputPassword1").val(data.goods_price);
+                    $("#exampleInputEmail1").val(Math.ceil(data.goods_price*0.75));
+                    $("#exampleInputPassword2").val(data.repo_num);
+                    $("#exampleInputPassword3").val(data.goods_star);
+                    $("#exampleInputPassword4").val(data.type_name);
+                    $("#fast_id").val(id);
+                    $("#goods_name").val(data.goods_name);
+                });
+            }
+        </script>
+        <!-- 日期选择 -->
+
+        <script>
+            var myDate = new Date;
+            var year = myDate.getFullYear(); //获取当前年
+            var mon = myDate.getMonth() + 1; //获取当前月
+            var date = myDate.getDate();
+            var Hours = myDate.getHours();
+            var Minutes = myDate.getMinutes();
+            var Seconds = myDate.getSeconds();
+            var week = year + "-" + mon + "-" + date + " " + Hours + ":" + Minutes + ":" + Seconds;
+            var current = '';
+            layui.use('laydate', function() {
+                var laydate = layui.laydate;
+                //前后若干天可选，这里以7天为例
+                laydate.render({
+                    elem: '#test-limit2',
+                    min: -7,
+                    max: 7,
+                    ready: function() {
+                        console.log($("test-limit1").val())
+                    }
+                });
+
+                //非input元素
+                var ins22 = laydate.render({
+                    elem: '#test28',
+                    min: week,
+                    max: '2020-12-30',
+                    format: 'yyyy-MM-dd HH:mm:ss',
+                    theme: 'grid', //格子主题
+                    ready: function() {
+                        ins22.hint('日期可选值设定在 <br>' + week + ' 到 2020-12-30 00:00:00');
+                    },
+                    done: function(value, date, startDate) {
+                        // $scope.querySearchParams.startdatepicker = stitchingDate(value, 'startdatepicker');
+                        current = value;
+                        $("#fast_up").val(value);
+                        var ins23 = laydate.render({
+                            elem: '#test29',
+                            min: current,
+                            max: '2020-12-30',
+                            format: 'yyyy-MM-dd HH:mm:ss',
+                            theme: 'grid', //格子主题
+                            done: function(value, date, startDate) {
+                                ins23.max = current;
+                                $("#fast_down").val(value);
+                            }
+                        });
+                    }
+                });
+
+
+
+                //直接嵌套显示
+                laydate.render({
+                    elem: '#test-n1',
+                    position: 'static'
+                });
+                laydate.render({
+                    elem: '#test-n2',
+                    position: 'static',
+                    lang: 'en'
+                });
+                laydate.render({
+                    elem: '#test-n3',
+                    type: 'month',
+                    position: 'static'
+                });
+                laydate.render({
+                    elem: '#test-n4',
+                    type: 'time',
+                    position: 'static'
+                });
+            });
+        </script>
+
+
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script type="text/javascript" th:src="@{/asserts/js/popper.min.js}"></script>
+		<script type="text/javascript" th:src="@{/asserts/js/bootstrap.min.js}"></script>
+
+		<!-- Icons -->
+		<script type="text/javascript" th:src="@{/asserts/js/feather.min.js}"></script>
+		<script>
+			feather.replace()
+		</script>
+
+		<!-- Graphs -->
+		<script type="text/javascript" th:src="@{/asserts/js/Chart.min.js}"></script>
+		<script>
+			var ctx = document.getElementById("myChart");
+			var myChart = new Chart(ctx, {
+				type: 'line',
+				data: {
+					labels: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+					datasets: [{
+						data: [15339, 21345, 18483, 24003, 23489, 24092, 12034],
+						lineTension: 0,
+						backgroundColor: 'transparent',
+						borderColor: '#007bff',
+						borderWidth: 4,
+						pointBackgroundColor: '#007bff'
+					}]
+				},
+				options: {
+					scales: {
+						yAxes: [{
+							ticks: {
+								beginAtZero: false
+							}
+						}]
+					},
+					legend: {
+						display: false,
+					}
+				}
+			});
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="fatcats.top.dao.CarGoodsDao">
+
+
+
+    <!--
+      查询所有
+    findAllCar
+
+    CarGoods findNameByID(@Param("id") Integer id);
+
+    //更新物流操作
+    public void uptCarGoods(CarGoods carGoods);
+    //删除物流操作
+    public void delCarGoods(@Param("id") Integer id);
+
+     //添加
+    public void addCarGoods(CarGoods carGoods);
+    -->
+<select id="findAllCar" resultType="CarGoods">
+
+SELECT car_id , car_name , car_method
+FROM
+tb_car
+</select>
+
+
+
+<select id="findNameByID" resultType="CarGoods">
+
+
+   SELECT car_id , car_name , car_method FROM tb_car WHERE car_id = #{id}
+
+</select>
+
+
+    <update id="uptCarGoods">
+
+        UPDATE tb_car SET
+        car_name = #{car_name} ,
+        car_method = #{car_method}
+        WHERE
+        car_id = #{car_id}
+    </update>
+
+    <delete id="delCarGoods">
+
+        DELETE FROM tb_car
+        WHERE
+        car_id = #{id}
+
+    </delete>
+
+
+    <insert id="addCarGoods">
+
+        INSERT INTO tb_car VALUES
+        (DEFAULT  , #{car_name} , #{car_method})
+
+    </insert>
+</mapper>
